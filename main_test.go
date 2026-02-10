@@ -38,7 +38,7 @@ pgContainer, err := postgres.RunContainer(ctx,
 	err = db.Ping()
 	require.NoError(t, err)
 
-	fmt.Println("Connected to TEST Postgres 🎉")
+	fmt.Println("Connected to TEST Postgres ")
 
 
 	require.NoError(t, createTable(db))
